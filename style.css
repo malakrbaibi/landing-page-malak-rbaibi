@@ -1,0 +1,76 @@
+.container{
+	width: 600px;
+	margin: 0 auto;
+}
+
+@media (max-width:961px) {
+
+	/* tablet, landscape iPad, lo-res, laptops an desktops*/
+	.container{
+		width: 500px;
+	}
+}
+
+@media (max-width:400px) {
+
+	/* smartphone, iPhone, portait 480X320 */
+	.container{
+		width: 350px;
+	}
+}
+
+h1, h2, h3 {
+	font-family: 'Cinzel Decorative', cursive;
+}
+
+body{
+	background-color:rgb(103, 93, 80);
+	font-family: 'Anonymous Pro', monospace;
+}
+
+h1{
+	font-size: 50px
+	margin-top: 0;
+	color: rgb(60, 35, 23);
+}
+
+h2{
+	font-weight: bolder;
+	margin-top: 0;
+	margin-bottom: 6px;
+	color: rgb(46, 56, 64);
+}
+
+h3{
+	margin-top: 0;
+	color: rgb(46, 56, 64);
+}
+
+p{
+	margin: 0;
+}
+
+.card{
+	background-color: rgb(255, 251, 245);
+	padding: 20px;
+	margin-bottom: 40px;
+	border-radius: 14px;
+	text-align: center;
+}	
+
+a{
+	text-decoration: none;
+	color: rgb(169, 144, 126);
+	font-weight: 800;
+}
+
+img{
+	height: 200px;
+	margin-bottom: 24px;
+	border-radius: 6px;
+}
+
+#first-card-p{
+	margin-bottom: 12px;
+}
+
